@@ -1,0 +1,80 @@
+@mixin vert-center {
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+@mixin horiz-center {
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+@mixin center-both {
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+} 
+
+.container-fluid {
+	padding: 0px !important; 
+}
+
+.hoverBox {
+	/* to overwrite bootstrap padding */
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	background-size: 100% auto;
+	.textWrap {
+		opacity: 0;
+		padding-top: 92px;
+		padding-bottom: 92px;
+		.title {
+			font-size: 50px;
+			font-weight: 500;
+			line-height: 60px;
+			color: #ffffff;
+			text-align: center;
+		}
+		.subtitle {
+			font-size: 20px;
+			font-weight: 300;
+			color: #ffffff;
+			text-align: center;
+		}
+	}
+	.textWrapMinor {
+		height: 100%;
+		opacity: 0;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 25px;
+		padding-right: 25px;
+		.title {
+			font-size: 28px;
+			font-weight: 500;
+			line-height: 33px;
+			color: #ffffff;
+			text-align: center;
+		}
+	}
+	.textWrap:hover {
+		opacity: 0.9;
+		display: block;
+		background-color: orange;
+		transition: all .3s ease;
+		cursor: pointer;
+	}
+	.textWrapMinor:hover {
+		opacity: 0.9;
+		display: block;
+		height: 100%;
+		background-color: orange;
+		transition: all .3s ease;
+		cursor: pointer;
+	}
+}

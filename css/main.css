@@ -1,0 +1,67 @@
+/* line 23, main.scss */
+.container-fluid {
+  padding: 0px !important;
+}
+
+/* line 27, main.scss */
+.hoverBox {
+  /* to overwrite bootstrap padding */
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  background-size: 100% auto;
+}
+/* line 32, main.scss */
+.hoverBox .textWrap {
+  opacity: 0;
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+/* line 36, main.scss */
+.hoverBox .textWrap .title {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+  color: #ffffff;
+  text-align: center;
+}
+/* line 43, main.scss */
+.hoverBox .textWrap .subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+}
+/* line 50, main.scss */
+.hoverBox .textWrapMinor {
+  height: 100%;
+  opacity: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+/* line 57, main.scss */
+.hoverBox .textWrapMinor .title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 33px;
+  color: #ffffff;
+  text-align: center;
+}
+/* line 65, main.scss */
+.hoverBox .textWrap:hover {
+  opacity: 0.9;
+  display: block;
+  background-color: orange;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+/* line 72, main.scss */
+.hoverBox .textWrapMinor:hover {
+  opacity: 0.9;
+  display: block;
+  height: 100%;
+  background-color: orange;
+  transition: all .3s ease;
+  cursor: pointer;
+}
