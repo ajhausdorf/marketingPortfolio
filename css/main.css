@@ -45,18 +45,24 @@
   padding-bottom: 50px;
   padding-left: 25px;
   padding-right: 25px;
+  position: relative;
 }
-/* line 62, main.scss */
+/* line 63, main.scss */
 .hoverBox .textWrapMinor .title {
   font-size: 28px;
   font-weight: 500;
   line-height: 33px;
   color: #ffffff;
   text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 @media (min-width: 760px) {
-  /* line 73, main.scss */
+  /* line 76, main.scss */
   .textWrap:hover {
     opacity: 0.9;
     display: block;
@@ -65,7 +71,7 @@
     cursor: pointer;
   }
 
-  /* line 80, main.scss */
+  /* line 83, main.scss */
   .textWrapMinor:hover {
     opacity: 0.9;
     display: block;

@@ -59,12 +59,15 @@
 		padding-bottom: 50px;
 		padding-left: 25px;
 		padding-right: 25px;
+		position: relative;
 		.title {
 			font-size: 28px;
 			font-weight: 500;
 			line-height: 33px;
 			color: #ffffff;
 			text-align: center;
+			position: relative;
+			@include vert-center;
 		}
 	}
 }
