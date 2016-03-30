@@ -8,15 +8,16 @@
   /* to overwrite bootstrap padding */
   padding-left: 0px !important;
   padding-right: 0px !important;
-  background-size: 100% auto;
+  background-size: cover;
+  background-position: center;
 }
-/* line 32, main.scss */
+/* line 33, main.scss */
 .hoverBox .textWrap {
   opacity: 0;
   padding-top: 92px;
   padding-bottom: 92px;
 }
-/* line 36, main.scss */
+/* line 37, main.scss */
 .hoverBox .textWrap .title {
   font-size: 50px;
   font-weight: 500;
@@ -24,16 +25,15 @@
   color: #ffffff;
   text-align: center;
 }
-/* line 43, main.scss */
+/* line 44, main.scss */
 .hoverBox .textWrap .subtitle {
   font-size: 20px;
   font-weight: 300;
   color: #ffffff;
   text-align: center;
 }
-/* line 50, main.scss */
+/* line 51, main.scss */
 .hoverBox .textWrapMinor {
-  height: 100%;
   opacity: 0;
   padding-top: 50px;
   padding-bottom: 50px;
