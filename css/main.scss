@@ -24,6 +24,10 @@
 	padding: 0px !important; 
 }
 
+.minor {
+	height: 175px;
+}
+
 .hoverBox {
 	/* to overwrite bootstrap padding */
 	padding-left: 0px !important;
@@ -49,6 +53,7 @@
 		}
 	}
 	.textWrapMinor {
+		height: 166px;
 		opacity: 0;
 		padding-top: 50px;
 		padding-bottom: 50px;
@@ -62,6 +67,9 @@
 			text-align: center;
 		}
 	}
+}
+
+@media (min-width: 760px) {
 	.textWrap:hover {
 		opacity: 0.9;
 		display: block;
