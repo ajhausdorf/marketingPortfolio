@@ -21,6 +21,7 @@
 } 
 
 .container-fluid {
+	/* overwrite bootstrap */
 	padding: 0px !important; 
 }
 
@@ -36,8 +37,8 @@
 	background-position: center;
 	.textWrap {
 		opacity: 0;
-		padding-top: 92px;
-		padding-bottom: 92px;
+		padding-top: 13.5px;
+		padding-bottom: 13.5px;
 		.title {
 			font-size: 50px;
 			font-weight: 500;
@@ -73,6 +74,13 @@
 }
 
 @media (min-width: 760px) {
+	.hoverBox {
+		.textWrap {
+			padding-top: 92px;
+			padding-bottom: 92px;
+		}
+	}
+
 	.textWrap:hover {
 		opacity: 0.9;
 		display: block;
